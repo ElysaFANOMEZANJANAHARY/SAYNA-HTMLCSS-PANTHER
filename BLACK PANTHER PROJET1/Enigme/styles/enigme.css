@@ -1,0 +1,275 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.secpr{
+    background-image: url("../styles/img/arrière_plan.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* header */
+.saynax{
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    margin-left: 25%;
+}
+
+li a{
+    float: right;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+
+li a:hover{
+    -webkit-filter: grayscale(100%) brightness(200%) sepia(90%) hue-rotate(5deg) saturate(500%) contrast(1);
+    filter: grayscale(50%) brightness(800%) sepia(100%) hue-rotate(5deg) contrast(1);
+    text-decoration: underline;
+}
+
+
+li{
+    display: inline;
+}
+
+#liste ul{
+    margin-right: -260%;
+    font-size: 23px;
+    font-family: 'Titre h2';
+}
+
+
+.eng{
+    color: #9E91B7;
+    border-bottom: 4px #9E91B7;
+    text-decoration: underline;
+}
+
+/* container */
+.okoimg img{
+    width: 190%;
+    margin-left: -30%;
+    margin-top: -30%;
+}
+
+.okot {
+    margin-left: 10%;
+    margin-top: 40%;
+}
+
+.okotexte{
+    font-size: 45px;
+    margin-top: -7%;
+    margin-left: 6%;
+    font-family: 'Titre h2';
+    color: #9E91B7 ;
+}
+
+.df{
+    font-size: 35px;
+}
+
+.xte2{
+    margin-top: 5%;
+}
+
+.okotexte2 {
+    margin-top: 20%;
+}
+
+.rb{
+    position: absolute;
+    margin-left: 6%;
+    margin-top: -1%;
+}
+
+.roi{
+    font-size: x-small;
+    color: white;
+    text-align: justify;
+}
+/* section1 */
+.sect h1{
+    color: #9E91B7;
+    margin-left: 8%;
+    font-family: 'Titre';
+}
+
+.ex {
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 25%;
+}
+.ex h2{
+    font-size: medium;
+    font-family: 'Texte';
+}
+
+.ex p{
+    font-family: 'Titre';
+    font-size: large;
+}
+
+.rp{
+    height: 40px;
+    width: 60%;
+    border: 1%;
+    border-radius: 30px;
+    background: transparent;
+    border-color: wheat;
+    text-decoration: white;
+}
+
+.btrp{
+    background-color: #F2CEF2;
+    border-radius: 30px;
+    text-decoration: white;
+    height: 38px;
+    width: 20%;
+    margin-left: -38%;
+    margin-top: 15%;
+    margin-bottom: 30%;
+}
+
+.Als{
+    color: white;
+}
+
+.ls{
+    margin-top: -5%;
+}
+
+.lss{
+    color: white;
+    font-size: x-small;
+    text-align: center;
+    position: relative;
+    text-align: center;
+    margin-top: 50%;
+    margin-right: -36%;
+}
+.igme2{
+    margin-top: 5%;
+    position: absolute;
+    margin-right: -5%;
+}
+
+/* footer */
+
+.footertxt{
+    color: white;
+    font-family: 'Texte';
+    margin-top: 50%;
+    margin-left: 30%;
+}
+
+.footertxt h1{
+    font-size: 20px;
+    font-family: 'Texte'
+}
+
+.footernous{
+    margin-top: 50%;
+    margin-left: -7%;
+    font-size: 20px;
+    font-family: 'Texte'
+}
+
+.footertxt a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-family: 'Texte';
+}
+
+
+.ft2{
+    margin-top: 47%;
+    background-size: 90%;
+    margin-bottom: 75%;
+    margin-left: 25%;
+}
+
+.ft2:hover{
+    transform: scale(1.2);
+    transition: 0,5s;
+}
+
+.footer1{
+    background-image: url("../styles/img/footer1.png");
+    background-size: 100%;
+    margin-bottom: 3%;
+    margin-top: 47%;
+    margin-left: 40%;
+    background-repeat: no-repeat;
+}
+
+.footer1:hover{
+    transform: scale(1.2);
+    transition: 0,5s;
+}
+
+footer{
+    background-image: url("../styles/img/back_footer.png");
+}
+
+.footernous h1{
+    font-size: 20px;
+    color: white;
+    margin-left: 45px;
+    margin-bottom: 10%;
+}
+
+.fb{
+    margin-left: 10%;
+}
+
+.tac{
+    margin-right: 18%;
+}
+
+.bra, .bro{
+    height: 5px;
+    width: 5px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    margin-top: 7px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.GTA{
+    display: flex;
+    color: white;
+    margin-top: -12%;
+    margin-left: -13%;
+    font-size: 12px;
+    font-family: 'Texte';
+}
+/* fonts */
+@font-face{
+    font-family: 'Titre h1';
+    src: url('/fonts/panthera.otf');
+}
+
+@font-face{
+    font-family: 'Titre h2';
+    src: url('/fonts/BEYNO.ttf');
+}
+
+@font-face{
+    font-family: 'Texte';
+    src: url('/fonts/Cantarell-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Titre';
+    src: url('/fonts/WakandaForever-Regular.ttf');
+}

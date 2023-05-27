@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.prcp{
+    background-image: url("../styles/img/arrière_plan.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 60%;
+}
+
+/* header */
+
+.saynax{
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    margin-left: 25%;
+}
+li a{
+    float: right;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+li a:hover{
+    -webkit-filter: grayscale(100%) brightness(200%) sepia(90%) hue-rotate(5deg) saturate(500%) contrast(1);
+    filter: grayscale(50%) brightness(800%) sepia(100%) hue-rotate(5deg) contrast(1);
+    text-decoration: underline;
+}
+
+
+
+li{
+    display: inline;
+}
+
+#liste ul{
+    margin-right: -260%;
+    font-size: 23px;
+    font-family: 'Titre h2';
+}
+
+.wka{
+    color: #9E91B7;
+    text-decoration: underline;
+}
+
+.wkd{
+    background: url("../styles/img/Pantherwakanda1.png");
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -6%;
+}
+
+.txt h1{
+    color: #9E91B7 ;
+    font-family: 'Titre h2';
+}
+
+.txt p{
+    color: white;
+    font-family: 'Texte';
+    font-size: 12px;
+}
+
+.txt h2{
+    color: #9E91B7 ;
+    font-family: 'Titre';
+}
+
+
+/* section1*/
+
+.section1 {
+    background: url("../styles/img/Pantherwakanda2.png");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 95%;
+}
+
+.origine{
+    font-size: 10px;
+    text-align: justify;
+}
+
+.ppp{
+    color: white;
+    padding-top: 50%;
+    font-family: 'Texte';
+}
+
+.unC{
+    font-size: 10px;
+    text-align: justify;
+}
+
+.unh1{
+    font-size: 26px;
+}
+
+
+.vil{
+    color: #9E91B7;
+    font-family: 'Titre h2';
+    font-size: medium;
+}
+
+.leC{
+    font-size: 10px;
+}
+
+.gueurre{
+    font-size: 10px;
+}
+
+.force{
+    font-size: 10px;
+}
+
+.anec{
+    font-size: 10px;
+}
+
+/* footer */
+.footertxt{
+    color: white;
+    font-family: 'Texte';
+    margin-top: 50%;
+    margin-left: 30%;
+}
+.footertxt h1{
+    font-size: 20px;
+    font-family: 'Texte'
+}
+
+.footernous{
+    margin-top: 50%;
+    margin-left: -7%;
+    font-size: 20px;
+    font-family: 'Texte'
+}
+
+.footertxt a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-family: 'Texte';
+}
+
+.ft2{
+    margin-top: 47%;
+    background-size: 90%;
+    margin-bottom: 75%;
+    margin-left: 25%;
+}
+
+
+.ft2:hover{
+    transform: scale(1.2);
+    transition: 0,5s;
+}
+
+.footer1{
+    background-image: url("../styles/img/footer1.png");
+    background-size: 100%;
+    margin-bottom: 3%;
+    margin-top: 47%;
+    margin-left: 40%;
+    background-repeat: no-repeat;
+}
+
+.footer1:hover{
+    transform: scale(1.2);
+    transition: 0,5s;
+}
+
+footer{
+    background-image: url("../styles/img/back_footer.png");
+}
+
+
+
+.footernous h1{
+    font-size: 20px;
+    color: white;
+    margin-left: 45px;
+    margin-bottom: 10%;
+}
+
+.fb{
+    margin-left: 10%;
+}
+
+.tac{
+    margin-right: 18%;
+}
+
+.bra, .bro{
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 7px;
+}
+
+.GTA{
+    display: flex;
+    color: white;
+    margin-top: -12%;
+    margin-left: -13%;
+    font-size: 12px;
+    font-family: 'Texte';
+}
+
+
+/* fonts */
+@font-face{
+    font-family: 'Titre h1';
+    src: url('/fonts/panthera.otf');
+}
+
+@font-face{
+    font-family: 'Titre h2';
+    src: url('/fonts/BEYNO.ttf');
+}
+
+@font-face{
+    font-family: 'Texte';
+    src: url('/fonts/Cantarell-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Titre';
+    src: url('/fonts/WakandaForever-Regular.ttf');
+}
